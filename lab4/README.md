@@ -8,27 +8,6 @@ Lab 4 thực hành dịch máy Anh–Việt trên `small-PhoMT` với ba mô hì
 
 Các mô hình được đánh giá bằng ROUGE-L và BLEU.
 
-## Vị trí trong cấu trúc môn học
-
-Repository này là một lab độc lập, được chuẩn bị để sau này đưa vào repository chung `DS201` dưới dạng thư mục con:
-
-```text
-DS201/
-├── README.md
-├── lab1/
-├── lab2/
-├── lab3/
-└── lab4/
-    ├── README.md
-    ├── assignments.ipynb
-    ├── Lab 4.pdf
-    ├── requirements.txt
-    ├── src/
-    └── ...
-```
-
-Tên thư mục lab dùng chữ thường và số lab (`lab4`) để thống nhất với repository chung. Mã nguồn của lab không phụ thuộc vào đường dẫn repository cha.
-
 ## Cấu trúc repository
 
 ```text
@@ -49,7 +28,7 @@ lab4/
 │   ├── train.py               # Huấn luyện và đánh giá
 │   ├── experiment.py          # Điều phối thí nghiệm
 │   └── artifacts.py           # Lưu CSV, đồ thị và metadata
-├── small-PhoMT/               # Dữ liệu local, bị loại khỏi Git
+├── data/               # Không lưu trên Git
 │   ├── small-train.json
 │   ├── small-dev.json
 │   └── small-test.json
