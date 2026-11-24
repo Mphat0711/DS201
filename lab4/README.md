@@ -73,18 +73,4 @@ python -m src --data-dir ./small-PhoMT --model bahdanau --evaluate-test
 python -m src --data-dir ./small-PhoMT --model luong --evaluate-test
 ```
 
-Khi chạy cả ba mô hình, chương trình tạo `outputs/comparison.csv` để so sánh kết quả.
 
-## Di chuyển vào repository `DS201`
-
-Khi tạo repository chung, giữ lab này như một thư mục con và không tạo Git repository lồng nhau:
-
-```bash
-mkdir DS201
-cd DS201
-git init
-mkdir lab4
-cp -R ../lab4/. ./lab4/
-```
-
-Sau khi kiểm tra các lab, tạo commit ở repository `DS201`. Nếu lab từng có Git repository riêng và không còn cần quản lý độc lập, có thể bỏ thư mục Git cũ của lab trước khi commit vào repository cha.
