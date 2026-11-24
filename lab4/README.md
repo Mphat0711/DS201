@@ -28,7 +28,7 @@ lab4/
 │   ├── train.py               # Huấn luyện và đánh giá
 │   ├── experiment.py          # Điều phối thí nghiệm
 │   └── artifacts.py           # Lưu CSV, đồ thị và metadata
-├── data/               # Không lưu trên Git
+├── small-PhoMT/               # Không lưu trên Git
 │   ├── small-train.json
 │   ├── small-dev.json
 │   └── small-test.json
