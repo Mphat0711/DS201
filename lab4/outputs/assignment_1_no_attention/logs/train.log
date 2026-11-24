@@ -1,0 +1,12 @@
+2026-11-24 15:51:05,147 model=none device=cuda config={'emb': 256, 'hidden': 256, 'layers': 3, 'dropout': 0.3, 'batch': 32, 'lr': 0.001, 'teacher_ratio': 0.5, 'epochs': 10, 'max_words': 50, 'vocab_limit': 10000, 'min_freq': 2, 'train_limit': None, 'dev_limit': None, 'seed': 42} split_counts={'train': 18607, 'dev': 1901, 'test': 1786}
+2026-11-24 15:52:25,418 epoch=1 loss=6.0257 dev_ROUGE-L=0.1280 seconds=71.49
+2026-11-24 15:53:36,862 epoch=2 loss=5.7262 dev_ROUGE-L=0.1561 seconds=67.64
+2026-11-24 15:54:48,002 epoch=3 loss=5.5368 dev_ROUGE-L=0.1902 seconds=67.40
+2026-11-24 15:55:59,123 epoch=4 loss=5.3961 dev_ROUGE-L=0.1927 seconds=67.23
+2026-11-24 15:57:10,176 epoch=5 loss=5.2825 dev_ROUGE-L=0.2017 seconds=67.25
+2026-11-24 15:58:21,104 epoch=6 loss=5.1864 dev_ROUGE-L=0.2139 seconds=67.07
+2026-11-24 15:59:32,570 epoch=7 loss=5.1044 dev_ROUGE-L=0.2173 seconds=67.53
+2026-11-24 16:00:43,759 epoch=8 loss=5.0285 dev_ROUGE-L=0.2208 seconds=67.23
+2026-11-24 16:01:55,048 epoch=9 loss=4.9619 dev_ROUGE-L=0.2267 seconds=67.18
+2026-11-24 16:03:06,203 epoch=10 loss=4.9011 dev_ROUGE-L=0.2298 seconds=67.25
+2026-11-24 16:03:14,332 best_epoch=10 dev={'rougeL_f1': 0.22975110464550944, 'rougeL_precision': 0.25324395666056077, 'rougeL_recall': 0.21330504115875548, 'bleu': 2.339933531731477, 'bleu_signature': 'nrefs:1|case:mixed|eff:no|tok:none|smooth:exp|version:2.6.0', 'dev_nll': 4.827258687357166} test={'rougeL_f1': 0.23461343441837604, 'rougeL_precision': 0.2608297568578331, 'rougeL_recall': 0.21614675776820175, 'bleu': 2.614806096629953, 'bleu_signature': 'nrefs:1|case:mixed|eff:no|tok:none|smooth:exp|version:2.6.0', 'dev_nll': 4.699540755807965}

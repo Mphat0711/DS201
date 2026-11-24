@@ -1,0 +1,2 @@
+rougeL_f1,rougeL_precision,rougeL_recall,bleu,bleu_signature,dev_nll
+0.23461343441837604,0.2608297568578331,0.21614675776820175,2.614806096629953,nrefs:1|case:mixed|eff:no|tok:none|smooth:exp|version:2.6.0,4.699540755807965
