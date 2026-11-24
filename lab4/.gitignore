@@ -1,6 +1,5 @@
-﻿small-PhoMT/
-data/*
-!data/.gitkeep
+﻿small-PhoMT/*
+!small-PhoMT/.gitkeep
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
